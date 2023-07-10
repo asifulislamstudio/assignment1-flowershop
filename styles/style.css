@@ -20,6 +20,24 @@ body{
     font-weight: 700;
     line-height: normal;
 }
+.primary-title{
+ color: #272727;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.primary-sub-title{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px
+
+}
 /* main style here  */
 /* hero section styel start here  */
 /* header section style start here  */
@@ -52,9 +70,85 @@ font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+margin: 18px 0px;
 }
 
 
 .hero-img{
     width: 500px;
+}
+
+/* hero section end here  */
+/* feature section start here  */
+.featured-section{
+    padding: 0px 40px;
+    margin-bottom: 100px;
+    
+}
+.featured-section-header{
+    margin-top: 80px;
+}
+.featured-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.fst{
+    margin: 0px 410px;
+}
+
+.box{
+    width: 450px;
+    height:510px ;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-right: 30px;
+}
+
+
+.box1{
+    background: rgba(167, 33, 98, 0.15);
+
+}
+.box1 img{
+    margin: 100px 60px 0px;
+    
+}
+.box2{
+    background: rgba(5, 151, 160, 0.15);
+
+}
+.box2 img{
+    margin: 80px 60px 0px;
+    
+}
+.box3{
+    background: rgba(71, 125, 17, 0.15);
+    
+
+}
+.box3 img{
+    margin: 40px 60px 0px;
+    
+}
+.feture-box-product-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.{
+
+}
+.product-title{
+color: #272727;
+text-align: center;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+margin-top: 30px;
 }
