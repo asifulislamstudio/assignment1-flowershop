@@ -189,3 +189,33 @@ margin: 10px 0px;
     width: 300px;
     margin: 80px 0px;
 }
+/* insta box style start here  */
+.insta-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 200px;
+
+}
+.insta-box{
+    height: 350px;
+    width: 300px;
+    background-image: url("../images/Flower\ 01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+
+}
+
+.ib2{
+    background-image: url("../images/Rectangle\ 4.png");
+}
+
+.ib3{
+    background-image: url("../images/Rectangle\ 5.png");
+}
+
+.ib4{
+    background-image: url("../images/Rectangle\ 6.png");
+}
